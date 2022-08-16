@@ -31,3 +31,9 @@ switch(item){
 
     default : console.log('i cant really say,  please ask the accountant')
 }
+//TERNARY OPREATION 
+let githubUser = 'poor'
+let activity = githubUser ==='Busy' ? 'this user is on fire ' : 'this user has not been pushing code regularly'
+console.log(activity)
+let premierLeagueClubs = ['chelsea','liverpool','Man City','Arsenal','Manchester United']
+
