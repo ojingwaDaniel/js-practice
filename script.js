@@ -53,8 +53,9 @@ let pvc = prompt('do you have a current PVC: YES OR NO')
 pvc = pvc.toUpperCase()
 if (votersAge >= 18 && pvc == 'YES') {A
     console.log('Congratulation you are qualified to vote ');
-} else {
-   console.log('sorry you dont meet the requirement check out the requirement'); 
+} 
+else {
+    console.log('sorry you dont meet the requirement check out the requirement'); 
 }
 //CODE TO DECIDE WHO PAYS HOSPITAL BILLS IN A HOSPITAL
 let patientAge = 16
