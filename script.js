@@ -64,3 +64,40 @@ if (patientAge <=17 || patientAge >=65) {
 }else{
     console.log('PLEASE YOU NEED TO PAY YOUR BILLS : CASH OR CREDIT CARD')
 }
+// SWITCH STATEMENT
+// A CODE THAT PRINTS OUT PLAYERS NAME BY JUST PUTTING IN THEIR JERSERY NUMBER
+let jerseyNumber = 9;
+switch(jerseyNumber){
+    case 1:console.log('Ter Stergen')
+    break
+    case 23:console.log('Kounde')
+    break
+
+    case 13:console.log('Jordi Alba')
+    break
+
+    case 15:console.log('Christensene')
+    break
+
+    case 4:console.log('Araujo')
+    break
+
+    case 21:console.log('De Jong')
+    break
+
+    case 8:console.log('Pedri')
+    break
+
+    case 19:console.log('Kessie')
+    break
+
+    case 7:console.log('Dembele')
+    break
+
+    case 10:console.log('Ansu Fati')
+    break
+
+    case 9:console.log('Lewandoski')
+
+    
+}
