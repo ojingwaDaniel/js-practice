@@ -35,5 +35,9 @@ switch(item){
 let githubUser = 'poor'
 let activity = githubUser ==='Busy' ? 'this user is on fire ' : 'this user has not been pushing code regularly'
 console.log(activity)
-let premierLeagueClubs = ['chelsea','liverpool','Man City','Arsenal','Manchester United']
+let bigPremierLeagueClubs = ['chelsea','liverpool','Man City','Arsenal','Manchester United']
+let smallPremierLeagueClubs = ['Everton','Tottenham','Brighton','Westham','Southampton','Fulham']
+let premierLeagueClubs = bigPremierLeagueClubs.concat(smallPremierLeagueClubs)
+let laligaTeams = ['Real Madrid','Villereal','Eibar','Alectico Madrid','chelsea','liverpool','Man City','Arsenal']
 
+    
