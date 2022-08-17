@@ -38,6 +38,18 @@ console.log(activity)
 let bigPremierLeagueClubs = ['chelsea','liverpool','Man City','Arsenal','Manchester United']
 let smallPremierLeagueClubs = ['Everton','Tottenham','Brighton','Westham','Southampton','Fulham']
 let premierLeagueClubs = bigPremierLeagueClubs.concat(smallPremierLeagueClubs)
+premierLeagueClubs.push('crystal Palace')
+premierLeagueClubs.pop()
+premierLeagueClubs.shift('Brentford')
+premierLeagueClubs.unshift()
 let laligaTeams = ['Real Madrid','Villereal','Eibar','Alectico Madrid','chelsea','liverpool','Man City','Arsenal']
+laligaTeams.sort()
+
+// ARRAYS IN ARRAYS 
+let bigClubs = [
+    ['Liverpool','Manchester United','Arsenal','Chelsea'],
+    ['Barcelona','Real Madrid','Alectico Madrid','Sevilla','Everton'],
+    ['AC Milan','Inter Milan','Juventus','Roma']
+]
 
     
