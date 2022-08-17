@@ -42,6 +42,8 @@ premierLeagueClubs.push('crystal Palace')
 premierLeagueClubs.pop()
 premierLeagueClubs.shift('Brentford')
 premierLeagueClubs.unshift()
+premierLeagueClubs.slice(0,4)
+premierLeagueClubs.splice(5,3,'Brentford')
 let laligaTeams = ['Real Madrid','Villereal','Eibar','Alectico Madrid','chelsea','liverpool','Man City','Arsenal']
 laligaTeams.sort()
 
@@ -51,5 +53,6 @@ let bigClubs = [
     ['Barcelona','Real Madrid','Alectico Madrid','Sevilla','Everton'],
     ['AC Milan','Inter Milan','Juventus','Roma']
 ]
+bigClubs[1].pop()
 
     
