@@ -61,5 +61,26 @@ while (GuessedNumber !== number) {
 }
 console.log(`Number : ${number} \n GuessedNumber : ${GuessedNumber}`)
 console.log('CONGRATS YOU WON')
-
-
+// CODE TO SUM EACH ARRAY IN AN ARRAY
+let list = [
+    [2,2,2,2,2],
+    [3,1,1,3,2],
+    [4,2,2,1,1]
+]
+for (let i = 0; i < list.length; i++) {
+    let row = list[i]
+    let total = 0
+    for (let j = 0; j < row.length; j++) {
+       total += row[j]
+       
+        
+    }
+   console.log(`${row} is a total of ${total}`)
+}
+for(row of list){
+    let total= 0
+    for(numbers of row){
+        total += numbers
+    }
+    console.log(`the list of numbers containing ${row} is equalled to ${total}`)
+}
