@@ -54,11 +54,85 @@ let bigClubs = [
     ['AC Milan','Inter Milan','Juventus','Roma']
 ]
 bigClubs[1].pop()
-// OBJECTS
+// ARRAYS IN OBJECTS
 let bigTeams = {
     england : ['chelsea','liverpool','Man City','Arsenal','Manchester United'],
     spain : ['Barcelona','Real Madrid','Alectico Madrid','Sevilla'],
     italy : ['AC Milan','Inter Milan','Juventus','Roma']
 
 }
+// OBJECTS IN OBJECTS
+let personalData = {
+    bestFood : ['rice','porridge yam'],
+    BestMusic: {
+        gospel : ['daddy wey dey pamper','do it again ','here i am to worship'],
+        circular: ['common person','its plenty','rise','its a mess']
+    }
+
+}
+playersProfile = [
+    {
+        name : 'Ter stegen',
+        jerseyNumber : 1,
+        rating : 7.0,
+
+    },
+    {
+        name : 'Araujo',
+        jerseyNumber : 4,
+        rating : 8.0,
+        
+    },
+    {
+        name : 'pedri',
+        jerseyNumber : 8,
+        rating : 8.5,
+        
+    },
+    {
+        name : 'lewandonski',
+        jerseyNumber : 9,
+        rating : 9.0,
+        
+    },
+    {
+        name : 'De Jong',
+        jerseyNumber : 21,
+        rating : 8.0,
+        
+    }
+]
+let players_profile = {
+    GK : {
+        name : 'Ter stegen',
+        jerseyNumber : 1,
+        rating : 7.0,
+
+    },
+    CDF: {
+        name : 'Araujo',
+        jerseyNumber : 4,
+        rating : 8.0,
+        
+    },
+    AMF:{
+        name : 'pedri',
+        jerseyNumber : 8,
+        rating : 8.5,
+        
+    },
+    DMF :{
+        name : 'De Jong',
+        jerseyNumber : 21,
+        rating : 8.0,
+        
+    },
+    CFW:{
+        name : 'lewandonski',
+        jerseyNumber : 9,
+        rating : 9.0,
+        
+    },
     
+}
+ 
