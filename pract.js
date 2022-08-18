@@ -1,5 +1,5 @@
 // CODE TO PRINT OUT THE PRICE OF ITEMS IN A SUPERMARKET
-let item = prompt('what do you want to buy')
+let item = prompt('what do you want to buy i will get the price for you')
 switch(item){
     case 'iphone 13':
     case 'hp laptop': console.log('$500')
@@ -54,5 +54,11 @@ let bigClubs = [
     ['AC Milan','Inter Milan','Juventus','Roma']
 ]
 bigClubs[1].pop()
+// OBJECTS
+let bigTeams = {
+    england : ['chelsea','liverpool','Man City','Arsenal','Manchester United'],
+    spain : ['Barcelona','Real Madrid','Alectico Madrid','Sevilla'],
+    italy : ['AC Milan','Inter Milan','Juventus','Roma']
 
+}
     
