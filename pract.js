@@ -135,4 +135,9 @@ let players_profile = {
     },
     
 }
- 
+ // ADDING TWO ARRAYS SIDE BY SIDE
+let list1 = ['Barce','Real','Manchester']
+let list2 = ['lona','Madrid','City']
+for (let i = 0; i < list2.length; i++) {
+    console.log(list1[i],list2[i])    
+}
